@@ -1,0 +1,46 @@
+.cardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 250px;
+  background-color: white;
+  border-radius: 4px;
+  border:white 3px solid; 
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.05);
+
+
+}
+
+.coverPicture {
+
+}
+
+.solidHr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: rgb(201, 198, 198);
+  /* background-image: linear-gradient(to right, #ccc, #333, #ccc); */
+}
+
+.title {
+  overflow: hidden;
+
+}
+
+.previousStations {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+} 
+
+.stationsPics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
